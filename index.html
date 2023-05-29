@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,50 @@
     <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
+
 <body>
     <main>
-        <fieldset class="calculator">
-            <input type="number">
-            <button>AC</button>
-            <button>%</button>
-            <button>/</button>
-            <button>X</button>
-            <button>-</button>
-            <button>+</button>
-            <button>=</button>
-            <button>,</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>0</button>
-        </fieldset>
+        <form class="calculator">
+            <fieldset class="atribute">
+                <h2>Calculadora</h2>
+                <div class="input-number">
+                    <input type="number" name="" id="start">
+                    <input type="number" name="" id="finish">
+                    <input type="number" name="" id="result">
+                </div>
+                <div class="buttons-operations">
+                    <button type="button" id="ac" value="">AC</button>
+                    <button type="button" id="equal" value="=">=</button>
+                </div>
+                <div class="buttons-first-number">
+                    <button type="button" value="1">1</button>
+                    <button type="button" value="2">2</button>
+                    <button type="button" value="3">3</button>
+                    <button type="button" id="division" value="/">/</button>
+                </div>
+                <div class="buttons-second-numbers">
+                        <button type="button" value="4">4</button>
+                        <button type="button" value="5">5</button>
+                        <button type="button" value="6">6</button>
+                        <button type="button" id="multiplication" value="*">X</button>
+                </div>
+                <div class="buttons-number&Operations">
+                    <button type="button" value="7">7</button>
+                    <button type="button" value="8">8</button>
+                    <button type="button" value="9">9</button>
+                    <button type="button" id="subtraction" value="-">-</button>
+                </div>
+                <div>
+                    <button type="button" value="0">0</button>
+                    <button type="button" value=",">.</button>
+                    <button type="button" id="sum" value="+">+</button>
+                    <button type="button" id="percentage" value="%">%</button>
+                </div>
+            </fieldset>
+        </form>
+
     </main>
-    
+
 </body>
+
 </html>
