@@ -14,8 +14,8 @@ function clean(){
 
 function back(){
 
-     let result = document.querySelector('#result').innerHTML;
-     result.innerHTML = result.substring(0, result.length - 1);
+     let result = document.querySelector("#result").innerHTML;
+     document.querySelector("#result").innerHTML = result.substring(0, result.length - 1);
 }
 
 function calculate(){
