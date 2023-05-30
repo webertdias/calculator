@@ -2,8 +2,13 @@
     margin: 0px;
 }
 
+body {
+    background-image:url(imagens/calculateImage.jpg) ;
+}
+
 h2{
     text-align: center;
+    color: whitesmoke;
 }
 
 .calculator{
@@ -14,7 +19,18 @@ h2{
 }
 
 .atribute{
-    background-color: rgba(106, 74, 74, 0.432);
+    background-color: rgba(47, 33, 33, 0.432);
+    border: 10px solid rgb(14, 7, 7);
+    border-radius: 5px;
+}
+
+#result{
+    width: 250px;
+    height: 20pt;
+    background-color: white;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .input-number{
@@ -22,7 +38,6 @@ h2{
     flex-direction: column;
     width: 250px;
     margin: 5px auto;
-    color: rgb(44, 97, 141);
 }
 
 button{
